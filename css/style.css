@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+body {
+    background:url("../img/diabetes.jpg") no-repeat fixed center;
+    background-size: cover;     
+}
+
+h1{
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    
+    
+}
+
+h2{
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    font-size: 28px;
+    padding-top: 2%;
+}
+    
+.boton{
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 2px solid #609ae6; 
+    margin-left:45%;
+    
+}
+
+    
