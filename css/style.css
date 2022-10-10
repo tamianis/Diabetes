@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
-body {
-    background:url("../img/diabetes.jpg") no-repeat fixed center;
+ body {
+    background:url("../img/diabet.jpg") no-repeat fixed center;
     background-size: cover;     
-}
+} 
 
 h1{
     font-family: 'Comfortaa', cursive;
@@ -28,5 +28,41 @@ h2{
     margin-left:45%;
     
 }
+.logo {
+    width: 20%;
+    padding: 1%;
+    align-items: center; }
+  
+  .navbar-nav {
+    list-style-type: none; }
+  
+  .nav-item a {
+    font-family: 'Comfortaa', cursive;
+    font-size: small;
+    text-decoration: none;
+    color: white;
+    font-weight: bold; }
+    .nav-item a:hover {
+      color: #d61d1d; }
+  
+  .navbar .container-fluid {
+    display: flex;
+    flex-direction: column-reverse; }
+  
+  .navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(254, 123, 191, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
+  
+    #footer-zone { 
+        font-family: 'Comfortaa', cursive;
+        text-align: center;
+        font-weight: bolder;
+        padding: 1%;
+        color: white;
+        height: 50px; 
+        background:#252525; 
+        width:100%; 
+        position:absolute; 
+        bottom:0; 
+        left:0; 
+      }
 
-    
