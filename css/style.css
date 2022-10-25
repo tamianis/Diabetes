@@ -1,68 +1,184 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 
- body {
-    background:url("../img/diabet.jpg") no-repeat fixed center;
-    background-size: cover;     
-} 
 
-h1{
-    font-family: 'Comfortaa', cursive;
-    text-align: center;
-    
-    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h2{
-    font-family: 'Caveat', cursive;
-    text-align: center;
-    font-size: 28px;
-    padding-top: 2%;
+body {
+  background: url("../img/diabet.jpg") no-repeat fixed center;
+  background-size: cover;
 }
-    
-.boton{
-    border-radius: 8px;
-    font-size: 18px;
-    padding: 10px 20px;
-    border: 2px solid #609ae6; 
-    margin-left:45%;
-    
+
+.fondo{
+  background-image: linear-gradient(#8599f1 , #5f8be9 , #3d47d1 , #153aa0);
+}
+
+h1 {
+  font-family: "Comfortaa", cursive;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Caveat", cursive;
+  text-align: center;
+  font-size: 55px;
+  color: azure;
+
+}
+
+.boton {
+  border-radius: 8px;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 2px solid #050505;
+  margin-left: 45%;
 }
 .logo {
-    width: 20%;
-    padding: 1%;
-    align-items: center; }
-  
-  .navbar-nav {
-    list-style-type: none; }
-  
-  .nav-item a {
-    font-family: 'Comfortaa', cursive;
-    font-size: small;
-    text-decoration: none;
-    color: white;
-    font-weight: bold; }
-    .nav-item a:hover {
-      color: #d61d1d; }
-  
-  .navbar .container-fluid {
-    display: flex;
-    flex-direction: column-reverse; }
-  
-  .navbar-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(254, 123, 191, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
-  
-    #footer-zone { 
-        font-family: 'Comfortaa', cursive;
-        text-align: center;
-        font-weight: bolder;
-        padding: 1%;
-        color: white;
-        height: 50px; 
-        background:#252525; 
-        width:100%; 
-        position:absolute; 
-        bottom:0; 
-        left:0; 
-      }
+  width: 20%;
+  padding: 1%;
+  align-items: center;
+}
 
+.navbar-nav {
+  list-style-type: none;
+}
+
+.nav-item a {
+  font-family: "Comfortaa", cursive;
+  font-size: small;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.nav-item a:hover {
+  color: #d61d1d;
+}
+
+.navbar .container-fluid {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(254, 123, 191, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+#footer-zone {
+  font-family: "Comfortaa", cursive;
+  text-align: center;
+  font-weight: bolder;
+  padding: 1%;
+  color: white;
+  height: 50px;
+  background: #252525;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.contenido-menu{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  text-align: center;
+  border-color: #050505;
+  margin: 10px;
+  width: 18rem;
+  height: 140px;
+}
+
+.card button {
+    text-align: center;
+    font-size: 10px;
+    border: none;
+    width: 100px;
+    margin: auto;
+}
+
+#inputsComidas{
+  display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+
+#botonMenu{
+  border-radius: 5px;
+  width: 55px;
+    font-size: 15px;
+}
+
+.btn-eliminar{
+  border-radius: 5px;
+  width: 55px;
+    font-size: 15px;
+}
+
+#botonGlic{
+  border-radius: 5px;
+  width: 65px;
+  font-size: 15px;
+}
+
+.inner_box{
+  width: 555px;
+  padding: 30px 10px;
+  position: relative;
+  background: #bdc3e8;
+  border-radius: 30px;
+}
+
+p{
+  font-family: "Comfortaa", cursive;
+  margin-top: 5px;
+  
+}
+h3{
+  font-family: "Comfortaa", cursive;
+  font-size: 20px;
+  text-decoration: underline;
+  margin-top: 5px;
+}
+
+#inner_box{
+  width: 555px;
+  padding: 30px 10px;
+  position: relative;
+  background: #bdc3e8;
+  border-radius: 30px;
+}
+
+.probando{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.btborrar{
+  border-radius: 5px;
+    width: 25px;
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+h4{
+  font-size: 18px;
+  margin-top: 8px;
+  font-style: italic;
+}
+ #glicemia{
+  border-radius: 10px;
+ }
+
+ #comidas{
+  border-radius: 10px;
+ }
