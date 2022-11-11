@@ -63,14 +63,6 @@ async function fetchAlimentos() {
 		});
 	});
 
-	// function eliminarBoton() {
-	// 	menu = [];
-	// 	menuList.innerHTML = "";
-	// 	totalHDC.innerText = 0;
-	// 	glicemia.value = "";
-	// 	localStorage.clear("menu");
-	// }
-
 	function render(listadoRenderAlimento) {
 		listadoRenderAlimento.forEach((alimen) => {
 			let contenedor = document.createElement("div");
