@@ -3,24 +3,25 @@
 
 
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  background: url("../img/diabet.jpg") no-repeat fixed center;
+  background: url("../img/diabetes.jpg") no-repeat fixed center;
   background-size: cover;
 }
 
 .fondo{
   background-image: linear-gradient(#8599f1 , #5f8be9 , #3d47d1 , #153aa0);
+  
 }
 
 h1 {
   font-family: "Comfortaa", cursive;
   text-align: center;
+  margin-top: 2%;
 }
+
 
 h2 {
   font-family: "Caveat", cursive;
@@ -67,34 +68,45 @@ h2 {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(254, 123, 191, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
-#footer-zone {
-  font-family: "Comfortaa", cursive;
-  text-align: center;
-  font-weight: bolder;
+footer {
+  font-family: "Silkscreen", cursive;
   padding: 1%;
-  color: white;
-  height: 50px;
-  background: #252525;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
+  text-align: center;
+  font-size: 100%;
+  background-color: #252525;
+  font-weight: bolder;
+  color: white; 
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
 }
 
 .contenido-menu{
-  display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  margin: 5px;
+  padding-left: 8%;
+  padding-right: 8%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+
 }
+
 
 .card {
   text-align: center;
   border-color: #050505;
+  border-radius: 35px;
   margin: 10px;
   width: 18rem;
-  height: 140px;
+  height: 310px;
 }
 
+.card img{
+  height: 180px;
+  border-top-left-radius: 34px;
+    border-top-right-radius: 34px;
+}
 .card button {
     text-align: center;
     font-size: 10px;
@@ -133,6 +145,10 @@ h2 {
   position: relative;
   background: #bdc3e8;
   border-radius: 30px;
+}
+
+.listadoComidas{
+text-align: center;
 }
 
 p{

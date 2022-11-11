@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "comida": "Arroz",
+        "hdc": 40,
+        "img": "../img/Arroz.jpg"
+    },
+    {
+        "id": 2,
+        "comida": "Fideos",
+        "hdc": 40,
+        "img": "../img/fideos.webp"
+    },
+    {
+        "id": 3,
+        "comida": "Salsas",
+        "hdc": 5,
+        "img": "../img/salsas.webp"
+    },
+    {
+        "id": 4,
+        "comida": "Salchicha",
+        "hdc": 0,
+        "img": "../img/salchichas.jpeg"
+    },
+    {
+        "id": 5,
+        "comida": "Carnes",
+        "hdc": 0,
+        "img": "../img/Carnes.jpg"
+    },
+    {
+        "id": 6,
+        "comida": "Uvas",
+        "hdc": 15,
+        "img": "../img/uvas.jpg"
+    },
+    {
+        "id": 7,
+        "comida": "Habas",
+        "hdc": 30,
+        "img": "../img/habas.jpg"
+    },
+    {
+        "id": 8,
+        "comida": "Choclo",
+        "hdc": 30,
+        "img": "../img/choclo.jpg"
+    },
+    {
+        "id": 9,
+        "comida": "Papas",
+        "hdc": 30,
+        "img": "../img/papas.jpg"
+    },
+    {
+        "id": 10,
+        "comida": "Palta",
+        "hdc": 5,
+        "img": "../img/palta.png"
+    },
+    {
+        "id": 11,
+        "comida": "Frambuesa",
+        "hdc": 15,
+        "img": "../img/frambuesa.jpeg"
+    },
+    {
+        "id": 12,
+        "comida": "Pan Hotdog",
+        "hdc": 30,
+        "img": "../img/hotdog.jpeg"
+    },
+    {
+        "id": 13,
+        "comida": "Mermelada",
+        "hdc": 0,
+        "img": "../img/mermelada.jpg"
+    },
+    {
+        "id": 14,
+        "comida": "Huevos",
+        "hdc": 0,
+        "img": "../img/huevos.jpg"
+    },
+    {
+        "id": 15,
+        "comida": "Pure",
+        "hdc": 40,
+        "img": "../img/pure.jpg"
+    },
+    {
+        "id": 16,
+        "comida": "1/2 Marraqueta",
+        "hdc": 30,
+        "img": "../img/marra.jpg"
+    },
+    {
+        "id": 17,
+        "comida": "1/2 Hallulla",
+        "hdc": 30,
+        "img": "../img/hallulla.jpeg"
+    },
+    {
+        "id": 18,
+        "comida": "Hamburguesa",
+        "hdc": 0,
+        "img": "../img/hambur.jpg"
+    },
+    {
+        "id": 19,
+        "comida": "3/4 Cereales",
+        "hdc": 30,
+        "img": "../img/cereales.webp"
+    },
+    {
+        "id": 20,
+        "comida": "Leche",
+        "hdc": 10,
+        "img": "../img/leche.jpg"
+    },
+    {
+        "id": 21,
+        "comida": "Jugos ",
+        "hdc": 0,
+        "img": "../img/jugos.jpg"
+    },
+    {
+        "id": 22,
+        "comida": "Queso",
+        "hdc": 0,
+        "img": "../img/queso.jpg"
+    },
+    {
+        "id": 23,
+        "comida": "Almendras",
+        "hdc": 5,
+        "img": "../img/almendras.jpg"
+    },
+    {
+        "id": 24,
+        "comida": "Nueces",
+        "hdc": 5,
+        "img": "../img/nueces.webp"
+    },
+    {
+        "id": 25,
+        "comida": "Naranjas",
+        "hdc": 15,
+        "img": "../img/naranjas.jpg"
+    },
+    {
+        "id": 26,
+        "comida": "Zanahorias",
+        "hdc": 10,
+        "img": "../img/zanahoria.webp"
+    },
+    {
+        "id": 27,
+        "comida": "Tomate",
+        "hdc": 10,
+        "img": "../img/tomate.jpg"
+    },
+    {
+        "id": 28,
+        "comida": "Platano",
+        "hdc": 15,
+        "img": "../img/platano.jpg"
+    },
+    {
+        "id": 29,
+        "comida": "Bebidas",
+        "hdc": 0,
+        "img": "../img/bebidas.webp"
+    },
+    {
+        "id": 30,
+        "comida": "Queso crema",
+        "hdc": 0,
+        "img": "../img/quesocrema.jpeg"
+    },
+    {
+        "id": 31,
+        "comida": "Manzana",
+        "hdc": 15,
+        "img": "../img/manzana.jpg"
+    },
+    {
+        "id": 32,
+        "comida": "Sandia",
+        "hdc": 15,
+        "img": "../img/sandias.jpg"
+    },
+    {
+        "id": 33,
+        "comida": "Brócoli",
+        "hdc": 5,
+        "img": "../img/brocoli.jpeg"
+    },
+    {
+        "id": 34,
+        "comida": "Cebolla",
+        "hdc": 5,
+        "img": "../img/cebolla.jpg"
+    },
+    {
+        "id": 35,
+        "comida": "Lechuga",
+        "hdc": 0,
+        "img": "../img/lechuga.jpeg"
+    },
+    {
+        "id": 36,
+        "comida": "Pizza (2)",
+        "hdc": 50,
+        "img": "../img/pizza.jpg"
+    },
+    {
+        "id": 37,
+        "comida": "Porotos",
+        "hdc": 40,
+        "img": "../img/porotos.jpg"
+    },
+    {
+        "id": 38,
+        "comida": "Lentejas",
+        "hdc": 40,
+        "img": "../img/lentejas.webp"
+    },
+    {
+        "id": 39,
+        "comida": "Café",
+        "hdc": 0,
+        "img": "../img/cafe.jpg"
+    },
+    {
+        "id": 40,
+        "comida": "Cerveza",
+        "hdc": 20,
+        "img": "../img/cerveza.jpg"
+    }
+]
