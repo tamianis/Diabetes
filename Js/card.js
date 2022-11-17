@@ -11,11 +11,6 @@ async function fetchAlimentos() {
 	const res = await fetch("../data.json");
 	listAlimento = await res.json();
 
-	//Variables inicializadas
-	const rango = 120;
-	const ratio = 10;
-	const sensibilidad = 60;
-
 	//Filtro
 	let comidaElegida = "";
 
@@ -55,30 +50,28 @@ async function fetchAlimentos() {
 		menu = [];
 		menuList.innerHTML = "";
 		totalHDC.innerText = 0;
+		resultadoInsulina.innerHTML = "";
+		resultadoMenu.innerHTML = "";
 		glicemia.value = "";
+		ratio.value = "";
+		sensibilidad.value = "";
+		rango.value = "";
 		localStorage.clear("menu");
 		Swal.fire({
-			title: "Ha borrado su lista.",
+			title: "Ha borrado su menú.",
 			icon: "success",
 		});
 	});
 
-	// function eliminarBoton() {
-	// 	menu = [];
-	// 	menuList.innerHTML = "";
-	// 	totalHDC.innerText = 0;
-	// 	glicemia.value = "";
-	// 	localStorage.clear("menu");
-	// }
 
 	function render(listadoRenderAlimento) {
 		listadoRenderAlimento.forEach((alimen) => {
-			let contenedor = document.createElement("div");
-			contenedor.className = "card";
+			let contenedor = document.createElement("card");
+			contenedor.className = "card border-0 transform-on-hover";
 			contenedor.innerHTML = `<img src="${alimen.img}"><h4>${alimen.comida}</h4> <p> Hdc: ${alimen.hdc}</p>`;
 
 			let agregar = document.createElement("button");
-			agregar.className = "btn btn-primary";
+			agregar.className = "btn-card";
 			agregar.innerText = `Agregar`;
 			agregar.setAttribute("identificador", alimen.id);
 			agregar.addEventListener("click", addComida);
@@ -113,12 +106,12 @@ async function fetchAlimentos() {
 				return id === itemId ? (total += 1) : total;
 			}, 0);
 
-			let list = document.createElement("lista");
-			list.className = "list";
+			let list = document.createElement("table");
+			list.className = "table";
 			list.innerText = `${cantidad} - ${item[0].comida} ( hdc:  ${item[0].hdc} )`;
 
 			let borrar = document.createElement("button");
-			borrar.innerText = "X";
+			borrar.innerText = "x";
 			borrar.className = "btborrar";
 			borrar.dataset.item = itemId;
 			borrar.addEventListener("click", borrarMenu);
@@ -167,19 +160,22 @@ async function fetchAlimentos() {
 			}, 0);
 			calc += `${cantidad} ${item[0].comida}  `;
 			resultadoInsulina.innerText = calcular(
-				totalHDC.innerText,
-				glicemia.value
+				parseInt(totalHDC.innerText),
+				parseInt(glicemia.value),
+				parseInt(rango.value), 
+				parseInt(ratio.value),
+				parseInt(sensibilidad.value),
 			);
 			resultadoMenu.innerText = calc;
 		});
 	}
 
-	function calcular(hc, glic) {
+	function calcular(hc, glic, rango, ratio, sensibilidad) {
 		const resultado1 = (glic - rango) / sensibilidad;
 		const resultado2 = hc / ratio;
 		const resultadoFinal = resultado1 + resultado2;
 		console.log(hc, glic);
-		console.log(typeof hc, typeof glic);
+		console.log(typeof ratio, typeof glic);
 
 		console.log(menuList.innerText);
 		console.log(totalHDC);

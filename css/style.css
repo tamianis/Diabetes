@@ -1,200 +1,277 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 
-
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-  background: url("../img/diabetes.jpg") no-repeat fixed center;
-  background-size: cover;
+	background: url("../img/diabetes.jpg") no-repeat fixed center;
+	background-size: cover;
 }
 
-.fondo{
-  background-image: linear-gradient(#8599f1 , #5f8be9 , #3d47d1 , #153aa0);
-  
+.fondo {
+	background-image: linear-gradient(#8599f1, #5f8be9, #3d47d1, #153aa0);
 }
 
 h1 {
-  font-family: "Comfortaa", cursive;
-  text-align: center;
-  margin-top: 2%;
+	font-family: "Comfortaa", cursive;
+	text-align: center;
+	margin-top: 2%;
 }
 
-
 h2 {
-  font-family: "Caveat", cursive;
-  text-align: center;
-  font-size: 55px;
-  color: azure;
+	font-family: "Caveat", cursive;
+	text-align: center;
+	font-size: 55px;
+	color: azure;
+}
 
+.material-symbols-outlined {
+	font-size: 35px;
+	color: rgb(177, 171, 172);
+}
+
+.material-symbols-outlined:hover {
+	color: #4954e9 !important;
 }
 
 .boton {
-  border-radius: 8px;
-  font-size: 18px;
-  padding: 10px 20px;
-  border: 2px solid #050505;
-  margin-left: 45%;
+	border-radius: 8px;
+	font-size: 18px;
+	padding: 10px 20px;
+	border: 2px solid #050505;
+	margin-left: 45%;
 }
+/* Index*/
+
+.contenido {
+	font-style: italic;
+	text-align: center;
+	padding: 1%;
+	font-weight: bolder;
+	margin-right: 15%;
+	margin-top: 11%;
+}
+
+.card-text {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right: 3%;
+	font-size: 20px;
+	color: rgba(8, 12, 235, 0.863);
+	font-weight: 300;
+}
+
+#cardIndex {
+	width: 45%;
+	height: auto;
+}
+
+.textPregunta {
+	font-weight: bold;
+}
+
 .logo {
-  width: 20%;
-  padding: 1%;
-  align-items: center;
+	width: 20%;
+	padding: 1%;
+	align-items: center;
 }
 
 .navbar-nav {
-  list-style-type: none;
-}
-
-.nav-item a {
-  font-family: "Comfortaa", cursive;
-  font-size: small;
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-}
-.nav-item a:hover {
-  color: #d61d1d;
+	list-style-type: none;
 }
 
 .navbar .container-fluid {
-  display: flex;
-  flex-direction: column-reverse;
+	display: flex;
+	flex-direction: column-reverse;
 }
 
 .navbar-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(254, 123, 191, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(254, 123, 191, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 footer {
-  font-family: "Silkscreen", cursive;
-  padding: 1%;
-  text-align: center;
-  font-size: 100%;
-  background-color: #252525;
-  font-weight: bolder;
-  color: white; 
-  position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
+	font-family: "Silkscreen", cursive;
+	text-align: center;
+	font-size: 100%;
+	background-color: #252525;
+	font-weight: bolder;
+	color: white;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
 }
 
-.contenido-menu{
-  margin: 5px;
-  padding-left: 8%;
-  padding-right: 8%;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  justify-items: center;
-
+.contenido-menu {
+	margin: 5px;
+	padding-left: 8%;
+	padding-right: 8%;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	justify-items: center;
 }
-
 
 .card {
-  text-align: center;
-  border-color: #050505;
-  border-radius: 35px;
-  margin: 10px;
-  width: 18rem;
-  height: 310px;
+	text-align: center;
+	border-color: #050505;
+	border-radius: 35px;
+	margin: 10px;
+	width: 18rem;
+	height: 310px;
 }
 
-.card img{
-  height: 180px;
-  border-top-left-radius: 34px;
-    border-top-right-radius: 34px;
+.card img {
+	height: 180px;
+	border-top-left-radius: 34px;
+	border-top-right-radius: 34px;
 }
 .card button {
-    text-align: center;
-    font-size: 10px;
-    border: none;
-    width: 100px;
-    margin: auto;
+	text-align: center;
+	font-size: 10px;
+	border: none;
+	width: 100px;
+	margin: auto;
 }
 
-#inputsComidas{
-  display: flex;
-    justify-content: flex-end;
-    padding: 15px;
+#inputsComidas {
+	display: flex;
+	justify-content: flex-end;
+	padding: 15px;
 }
 
-#botonMenu{
-  border-radius: 5px;
-  width: 55px;
-    font-size: 15px;
+#botonMenu {
+	border-radius: 10px;
+	width: 55px;
+	font-size: 15px;
+  background-color: rgb(167, 200, 238);
 }
 
-.btn-eliminar{
-  border-radius: 5px;
-  width: 55px;
-    font-size: 15px;
+.btn-eliminar {
+	border-radius: 10px;
+	width: 55px;
+	font-size: 12px;
+  font-weight: 500;
+  color: white;
+  background-color: rgb(60, 107, 209);
+  transition-duration: 0.5s;
 }
 
-#botonGlic{
-  border-radius: 5px;
-  width: 65px;
-  font-size: 15px;
+.btn-eliminar:hover{
+  background-color: #66b0ec;
 }
 
-.inner_box{
-  width: 555px;
-  padding: 30px 10px;
-  position: relative;
-  background: #bdc3e8;
-  border-radius: 30px;
+#botonGlic {
+	border-radius: 10px;
+	width: 65px;
+	font-size: 13px;
+  font-weight: 500;
+  color: white;
+  background-color: rgb(60, 107, 209);
+  transition-duration: 0.5s;
 }
 
-.listadoComidas{
-text-align: center;
+#botonGlic:hover {
+  background-color: #66b0ec;
 }
 
-p{
-  font-family: "Comfortaa", cursive;
-  margin-top: 5px;
-  
-}
-h3{
-  font-family: "Comfortaa", cursive;
-  font-size: 20px;
-  text-decoration: underline;
-  margin-top: 5px;
-}
-
-#inner_box{
-  width: 555px;
-  padding: 30px 10px;
-  position: relative;
-  background: #bdc3e8;
-  border-radius: 30px;
-}
-
-.probando{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  padding-bottom: 10px;
-}
-
-.btborrar{
-  border-radius: 5px;
-    width: 25px;
-    font-size: 10px;
-    margin-left: 5px;
-}
-
-h4{
-  font-size: 18px;
-  margin-top: 8px;
-  font-style: italic;
-}
- #glicemia{
+.btn-card{
   border-radius: 10px;
- }
+  background-color: rgb(37, 80, 172);
+  color: white;
+  transition-duration: 0.4s;
+  font-weight: 600;
+  height: 25px;
+}
 
- #comidas{
-  border-radius: 10px;
- }
+.btn-card:hover {
+  background-color: #3c9ff0;
+}
+
+.inner_box {
+	width: 555px;
+	padding: 30px 10px;
+  margin-right: 1%;
+	position: relative;
+	background: #bdc3e8;
+	border-radius: 35px 0px 35px 0px;
+-moz-border-radius: 35px 0px 35px 0px;
+-webkit-border-radius: 35px 0px 35px 0px;
+
+}
+
+.listadoComidas {
+	text-align: center;
+}
+
+p {
+	font-family: "Comfortaa", cursive;
+	margin-top: 5px;
+}
+h3 {
+	font-family: "Comfortaa", cursive;
+	font-size: 20px;
+	text-decoration: underline;
+	margin-top: 5px;
+}
+
+#inner_box {
+	width: 555px;
+	padding: 30px 10px;
+	position: relative;
+	background: #bdc3e8;
+	border-radius: 30px;
+}
+
+.probando {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	padding-bottom: 10px;
+}
+
+.btborrar {
+	border-radius: 5px;
+	width: 25px;
+	font-size: 10px;
+	margin-left: 5px;
+}
+
+h4 {
+	font-size: 18px;
+	margin-top: 8px;
+	font-style: italic;
+}
+#glicemia {
+	border-radius: 10px;
+}
+
+#ratio {
+	border-radius: 10px;
+}
+
+#sensibilidad {
+	border-radius: 10px;
+}
+
+#rango {
+	border-radius: 10px;
+}
+
+
+#comidas {
+	border-radius: 10px;
+}
+
+.gallery-block.cards-gallery .card {
+	transition: 0.4s ease;
+}
+
+@media (min-width: 576px) {
+	.gallery-block .transform-on-hover:hover {
+		transform: translateY(-10px) scale(1.02);
+		box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
+	}
+}
