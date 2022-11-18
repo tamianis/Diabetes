@@ -2,7 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 
 * {
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -138,67 +139,66 @@ footer {
 #inputsComidas {
 	display: flex;
 	justify-content: flex-end;
-	padding: 15px;
+	padding-right: 5%;
 }
 
 #botonMenu {
 	border-radius: 10px;
 	width: 55px;
 	font-size: 15px;
-  background-color: rgb(167, 200, 238);
+	background-color: rgb(167, 200, 238);
 }
 
 .btn-eliminar {
 	border-radius: 10px;
 	width: 55px;
 	font-size: 12px;
-  font-weight: 500;
-  color: white;
-  background-color: rgb(60, 107, 209);
-  transition-duration: 0.5s;
+	font-weight: 500;
+	color: white;
+	background-color: rgb(60, 107, 209);
+	transition-duration: 0.5s;
 }
 
-.btn-eliminar:hover{
-  background-color: #66b0ec;
+.btn-eliminar:hover {
+	background-color: #66b0ec;
 }
 
 #botonGlic {
 	border-radius: 10px;
 	width: 65px;
 	font-size: 13px;
-  font-weight: 500;
-  color: white;
-  background-color: rgb(60, 107, 209);
-  transition-duration: 0.5s;
+	font-weight: 500;
+	color: white;
+	background-color: rgb(60, 107, 209);
+	transition-duration: 0.5s;
 }
 
 #botonGlic:hover {
-  background-color: #66b0ec;
+	background-color: #66b0ec;
 }
 
-.btn-card{
-  border-radius: 10px;
-  background-color: rgb(37, 80, 172);
-  color: white;
-  transition-duration: 0.4s;
-  font-weight: 600;
-  height: 25px;
+.btn-card {
+	border-radius: 10px;
+	background-color: rgb(37, 80, 172);
+	color: white;
+	transition-duration: 0.4s;
+	font-weight: 600;
+	height: 25px;
 }
 
 .btn-card:hover {
-  background-color: #3c9ff0;
+	background-color: #3c9ff0;
 }
 
 .inner_box {
 	width: 555px;
 	padding: 30px 10px;
-  margin-right: 1%;
+	margin-right: 1%;
 	position: relative;
 	background: #bdc3e8;
 	border-radius: 35px 0px 35px 0px;
--moz-border-radius: 35px 0px 35px 0px;
--webkit-border-radius: 35px 0px 35px 0px;
-
+	-moz-border-radius: 35px 0px 35px 0px;
+	-webkit-border-radius: 35px 0px 35px 0px;
 }
 
 .listadoComidas {
@@ -259,7 +259,6 @@ h4 {
 #rango {
 	border-radius: 10px;
 }
-
 
 #comidas {
 	border-radius: 10px;
